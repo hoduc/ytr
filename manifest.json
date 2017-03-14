@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "YTR",
+  "version": "1.0",
+
+  "description": "Repeat currently playing youtube video",
+
+  "icons": {
+    "48": "icons/repeat-32.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["ytr.js"]
+    }
+  ]
+
+}
