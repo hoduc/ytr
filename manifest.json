@@ -9,7 +9,13 @@
   "icons": {
     "48": "icons/repeat-32.png"
   },
-
+  "browser_action":{
+    "default_icon":{
+      "32" : "icons/ytr_popup-32.png"
+    },
+    "default_title" : "See What is repeating?",
+    "default_popup" : "popup/ytr_popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
