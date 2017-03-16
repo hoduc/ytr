@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["ytr.js"]
+      "js": ["content_scripts/ytr.js"]
     }
   ]
 
