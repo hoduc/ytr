@@ -10,9 +10,8 @@ if(player){
     };
 
     var title = document.getElementsByClassName("watch-title")[0].textContent;
-    console.log("hello:contentscript:title:" + title);
+    //console.log("hello:contentscript:title:" + title);
     browser.runtime.sendMessage({"title": title});
-    console.log("after sending message!!!");
-
+    //console.log("after sending message!!!");
 }
 else console.log("no player!!!");
